@@ -1,0 +1,27 @@
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      serp_api_key:
+        type: string
+        description: "Optional SerpAPI key for Google Hotels fallback"
+      default_currency:
+        type: string
+        description: "Default ISO 4217 currency code"
+        default: "USD"
+  commandFunction: |
+    function generateCommand(config) {
+      const args = ["-m", "hotels.server", "--connection_type", "stdio"];
+      const env = {
+        DEFAULT_CURRENCY: config.default_currency || "USD"
+      };
+      if (config.serp_api_key) {
+        env.SERP_API_KEY = config.serp_api_key;
+      }
+      return {
+        command: "python3",
+        args: args,
+        env: env
+      };
+    }

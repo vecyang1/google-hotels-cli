@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=65.5.1", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "google-hotels-cli"
+version = "0.1.0"
+description = "Production-grade Google Hotels CLI & MCP Server with Dual Providers (stays + SerpAPI), smart city resolver, and local caching"
+readme = "README.md"
+authors = [
+    {name = "Vec Yang", email = "user@example.com"}
+]
+license = "MIT"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "stays",
+    "fastmcp",
+    "google-search-results",
+    "rich",
+    "pydantic",
+    "python-dotenv",
+    "httpx",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/vecyang1/google-hotels-cli"
+"Bug Tracker" = "https://github.com/vecyang1/google-hotels-cli/issues"
+
+[project.scripts]
+google-hotels = "hotels.server:main"
+hotel-search = "hotel_search:main"
+
+[tool.setuptools]
+packages = ["hotels", "hotels.models", "hotels.services", "hotels.utils"]

@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments & Secrets
+.env
+.env.*
+venv/
+env/
+.venv/
+uv.lock
+
+# Cache & Logs
+.cache/
+*.log
+
+# Editor & MCP
+.idea/
+.vscode/
+.mcp.json
+.system_generated/
+
+# OS specific
+.DS_Store
+Thumbs.db
