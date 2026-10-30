@@ -59,7 +59,7 @@ python3 hotel_search.py "Tokyo" 2026-10-15 2026-10-18 --no-cache
 | **1. Transit & Flight** | `mcp-flight-search` | Find lowest fare flight dates, airlines, and high-speed rail alternatives |
 | **2. Hotel & Accommodation** | `google-hotels-cli` / `agoda-orders-cli` | Compare Google Hotels live rates, star classes, and Agoda loyalty ledger |
 | **3. Activities & Experiences**| `activity-intel-cli` | Retrieve top-rated Klook tours and Airbnb Experiences |
-| **4. Nomad Living Cost** | `citycost-cli` | Evaluate destination baseline living expenses and safety index |
+| **4. Expat Living Cost** | `citycost-cli` | Evaluate destination baseline living expenses and safety index |
 
 ## 🧪 Verification
 
