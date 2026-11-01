@@ -52,7 +52,7 @@ python3 hotel_search.py "Tokyo" 2026-10-15 2026-10-18 --no-cache
 5. **FastMCP Server** (`hotels.server`):
    - Native integration for Claude Desktop, Cursor, Antigravity, and Windsurf (`search_hotels_tool`, `server_status`).
 
-## 🌐 Agent Ecosystem Cross-Tool Travel Ecosystem Workflow
+## 🌐 Cross-Tool Travel Ecosystem Workflow
 
 | Step | Tool / Skill | Role in Travel Planning |
 | :--- | :--- | :--- |

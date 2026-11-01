@@ -14,4 +14,4 @@ All notable changes to `google-hotels-cli` will be documented in this file.
 - **Advanced CLI**: `hotel_search.py` supporting terminal tables, CSV, and JSON exports with rich sorting and amenity filters.
 - **FastMCP Server**: Exposes `search_hotels_tool` and `server_status`.
 - **Test Suite**: 7 offline deterministic unit tests covering normalization, caching, sorting, and failover.
-- **Agent Ecosystem Travel Suite Integration**: Registered in `project-capabilities.md` and linked with `mcp-flight-search`, `agoda-orders-cli`, `activity-intel-cli`, and `citycost-cli`.
+- **Travel Suite Integration**: Registered in ecosystem registries and linked with `mcp-flight-search`, `agoda-orders-cli`, `activity-intel-cli`, and `citycost-cli`.
