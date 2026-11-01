@@ -27,6 +27,7 @@ wheels/
 # Virtual Environments & Secrets
 .env
 .env.*
+!.env.example
 venv/
 env/
 .venv/
